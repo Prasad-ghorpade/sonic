@@ -352,6 +352,7 @@ section {
 .hero-subtitle {
     animation: fadeInUp 1.2s ease-out;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    /* margin-top: 20px;   ya 1.5rem */
 }
 
 .subtitle-indent {
@@ -371,6 +372,8 @@ section {
     animation: fadeInUp 1.4s ease-out;
 }
 
+
+
 /* Pulse Button Animation */
 .pulse-btn {
     animation: pulseBtn 2s infinite;
@@ -388,6 +391,20 @@ section {
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
+
+
+
+
+.industrial-badge {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    padding: 8px 14px;
+    margin: 8px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
 
 /* Highlights Bar - Modernized */
 .highlights-bar {
